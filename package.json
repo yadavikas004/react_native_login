@@ -1,0 +1,35 @@
+{
+  "name": "learning-react-native",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/native": "^7.0.15",
+    "@react-navigation/stack": "^7.1.2",
+    "@reduxjs/toolkit": "^2.6.1",
+    "axios": "^1.8.2",
+    "babel-jest": "^29.7.0",
+    "expo": "~52.0.37",
+    "expo-status-bar": "~2.0.1",
+    "jwt-decode": "^4.0.0",
+    "learning-react-native": "file:",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-dotenv": "^3.4.11",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@react-native-community/cli": "^17.0.0",
+    "@react-native/babel-preset": "^0.78.0",
+    "metro-react-native-babel-preset": "^0.77.0"
+  },
+  "private": true
+}
