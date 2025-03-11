@@ -11,7 +11,6 @@ import {
 import { useDispatch } from 'react-redux';
 import api from '../utils/api';
 import { loginSuccess } from '../redux/authSlice';
-import { useNavigation } from '@react-navigation/native';
 import { saveToken } from '../utils/auth';
 
 const { width, height } = Dimensions.get('window'); // Get screen width & height
@@ -20,7 +19,6 @@ export default function LoginScreen() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const dispatch = useDispatch();
-    const navigation = useNavigation();
 
     const handleLogin = async () => {
         try {
@@ -39,10 +37,7 @@ export default function LoginScreen() {
                 
                 // Dispatch login success action
                 dispatch(loginSuccess({ token, user }));
-                
-                // Navigate to Home screen
-                //navigation.replace('Home');
-                
+            
                 //console.log('Login Successful. Redirecting to Home.');
                 //Alert.alert('Success', 'Login Successful');
             } else {

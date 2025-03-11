@@ -34,3 +34,56 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# misc
+.vscode/
+.history/
+.idea/
+
+android/app/build/
+ios/build/
+android/**
+
+# Expo Go
+expo-go-*.apk
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.xcworkspace/xcuserdata
+*.xcuserdata
+
+# Android
+*.apk
+*.aab
+*.aar
+*.keystore
+
+# iOS
+*.ipa
+*.app
+*.app
+*.app.dSYM.zip
+*.app.dSYM
+*.app.dSYM.tar.gz
+*.app.dSYM.tar.bz2
+*.app.dSYM.tar.xz
+*.app.dSYM.tar.lzma
+*.app.dSYM.tar.zst
+*.app.dSYM.tar.zstd
+*.app.dSYM.tar.zstd.gz
+*.app.dSYM.tar.zstd.bz2
+*.app.dSYM.tar.zstd.xz
+*.app.d
+*.app.d.gz
+*.app.d.bz2
+*.app.d.xz
+*.app.d.lzma
+*.app.d.zst
+*.app.d.zstd
+*.app.d.zstd.gz
+*.app.d.zstd.bz2
+*.app.d.zstd.xz
+*.app.d.zstd.lzma
+*.app.d.zstd.tar
+*.app.d.zstd.tar.gz
